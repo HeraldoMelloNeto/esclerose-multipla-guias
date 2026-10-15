@@ -1,0 +1,20 @@
+{
+  "name": "esclerose-multipla-guias",
+  "version": "1.0.0",
+  "description": "Esclerose Múltipla — Guias Clínico e Radiológico (McDonald 2024 · MAGNIMS-CMSC-NAIMS 2024)",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node tests/logic.test.mjs"
+  },
+  "author": "Dr. Heraldo Mello Neto",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "esbuild": "^0.24.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "private": true
+}
